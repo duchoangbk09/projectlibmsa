@@ -44,11 +44,115 @@
           "autoAcceptOrderInSeconds": -1
       }
   },
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "getRestaurantsByCMS": {
+      "success": true,
+      "data": [
+          {
+              "config": {
+                  "staffPinCode": "1234",
+                  "enableTableNumberInput": false,
+                  "startingOrderNumber": 20,
+                  "enableAllDayReceiptPrinting": true,
+                  "sumup_affiliateKey": "sup_afk_fLNp5l2Mkpqy7AGFGgFottPlyUV2S2k",
+                  "enableGenerateQRCodeByStaff": false,
+                  "enableShowingPreOrder": true,
+                  "allowedRequestTypes": [
+                      "PRE ORDER",
+                      "EAT HERE",
+                      "TAKEAWAY",
+                      "ROOM ORDER"
+                  ]
+              },
+               "id": "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e",
+              "address": "Annankatu 18, 00120 Helsinki, Finland"
+          }
+      ],
+      "device": {
+          "name": "Long printer",
+          "type": "printer",
+          "autoAcceptOrderInSeconds": 0,
+          "restaurantId": "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e",
+          "menuIds": [
+              "submenu-1",
+              "kiosk-test-menu"
+          ],
+          "serialNumber": "f6fff5af2c3a024e",
+          "id": "14a31c7f-ee22-49be-a9be-c0428f1d4262",
+          "updatedAt": "2023-02-19T13:36:39.843Z",
+          "shouldAutoPrintOrders": true,
+          "createdAt": "2023-02-19T13:36:39.843Z",
+          "printerPaperWidth": "58mm"
+      }
+  },
+  "staffOrderList": {
+      "success": true,
+      "data": [
+          {
+              "tokenId": "350554ec-0a79-457b-aa49-b2cc86d5d957",
+              "menu": [
+                  {
+                      "quantity": 1,
+                      "cartId": "2d82a806-5c76-4c0d-ba4c-d47df6f6ed04",
+                      "item": {
+                          "isIncludeSurcharge": false,
+                          "id": "5569d472-0118-4ded-8ffd-447b22adc212",
+                          "noTakeAway": false,
+                          "chosenExtras": [],
+                          "itemType": "main",
+                          "description": "Grilled chicken, romaine salad, rocket, figs, crispy chickpeas and parmesan dressing",
+                          "price": "22.50",
+                          "specialAvailability": null,
+                          "isAlcohol": false,
+                          "shouldSuggested": false,
+                          "type": "menuItem",
+              
+                          "hiddenTime": 0,
+                          "titleSE": "",
+                          "note": "- Normal",
+                          "title": "POLLO (L,G)",
+                          "descriptionFI": "Grillattua kanaa, romainea, rucolaa, viikunoita, rapeita kikherneitä ja parmesandressinkiä",
+                          "titleFI": "POLLO (L,G)",
+                          "descriptionSE": "",
+                          "hiddenFrom": 1676391074,
+                          "image": "https://firebasestorage.googleapis.com/v0/b/pepi-store-test.appspot.com/o/users%2FFXkJxtfxeBbbnLRuW155J4UYLLe2%2Fusers%2FFXkJxtfxeBbbnLRuW155J4UYLLe2%2Frestaurants%2Fad9da1bf-ed6a-4dab-8951-170e83a7bc9e%2Fimages%2F87089212-a71a-4fc7-8c74-7fb8db250ead.jpeg?alt=media&token=c992d9d6-cc6a-462e-92d7-60c29ecdcc55",
+                          "new": false,
+                          "categoryName": "Salads Scandic"
+                      }
+                  }
+              ],
+              "paidByOther": "0",
+              "menuId": "submenu-1",
+              "tableNumber": "",
+              "fromPlatform": "kiosk",
+              "plannedAt": null,
+              "paymentStatus": "paid",
+              "customerId": "",
+              "customer": {
+                  "phoneNumber": "",
+                  "displayName": "duc kiosk",
+                  "displayNameOnScreen": "#22",
+                  "name": ""
+              },
+              "deviceId": "b22bd8b2-c91f-4b9d-96c3-ea4b711c8674",
+              "timeReady": "0",
+              "id": "71ad3cd8-4c48-4fc0-adcd-55e87a69a21a",
+              "rewarded": true,
+              "paidByToken": "0",
+              "receiptId": "8f15f62c-c322-4d3b-9a07-d0ff94556fd2",
+              "rewardingToken": "2.25",
+              "restaurantId": "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e",
+              "paidByFiat": "22.5",
+              "status": "inprogress",
+              "requestType": "EAT HERE",
+              "note": "",
+              "fiatCurrency": "EUR",
+              "orderId": "22",
+              "totalAmount": "22.5",
+              "payAsCheckout": true,
+              "checkRetry": 0,
+             
+              "amount": "0"
+          }
+      ]
   }
 }
