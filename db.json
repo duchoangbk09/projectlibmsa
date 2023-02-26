@@ -1,45 +1,54 @@
 {
-    "success": true,
-    "data": {
-        "forceClosed": false,
-        "deviceInfo": {
-            "osVersion": "SUNMI",
-            "buildNumber": "8",
-            "appVersion": "1.1.6"
-        },
-        "phone": "+35892714232",
-        "createdAt": "2023-01-19T10:06:49.519Z",
-        "id": "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e",
-        "config": {
-            "sumup_affiliateKey": "sup_afk_fLNp5l2Mkpqy7AGFGgFottPlyUV2S2k",
-            "enableShowingPreOrder": true,
-            "enableGenerateQRCodeByStaff": false,
-            "enableAllDayReceiptPrinting": true,
-            "staffPinCode": "1234",
-            "enableTableNumberInput": false,
-            "allowedRequestTypes": [
-                "PRE ORDER",
-                "EAT HERE",
-                "TAKEAWAY",
-                "ROOM ORDER"
-            ]
-        },
-        "zipCode": "00120"
-    },
-    "device": {
-        "printerPaperWidth": "80mm",
-        "serialNumber": "mock",
-        "id": "b22bd8b2-c91f-4b9d-96c3-ea4b711c8674",
-        "createdAt": "2023-02-04T15:22:51.888Z",
-        "nameOrdering": true,
-        "type": "kiosk",
-        "name": "duc kiosk",
-        "updatedAt": "2023-02-14T22:29:39.489Z",
-        "restaurantId": "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e",
-        "menuIds": [
-            "submenu-1"
-        ],
-        "shouldAutoPrintOrders": false,
-        "autoAcceptOrderInSeconds": -1
-    }
+  "getRestaurantBySerialNumber": {
+      "success": true,
+      "data": {
+          "forceClosed": false,
+          "deviceInfo": {
+              "osVersion": "SUNMI",
+              "buildNumber": "8",
+              "appVersion": "1.1.6"
+          },
+          "phone": "+35892714232",
+          "createdAt": "2023-01-19T10:06:49.519Z",
+          "id": "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e",
+          "config": {
+              "sumup_affiliateKey": "sup_afk_fLNp5l2Mkpqy7AGFGgFottPlyUV2S2k",
+              "enableShowingPreOrder": true,
+              "enableGenerateQRCodeByStaff": false,
+              "enableAllDayReceiptPrinting": true,
+              "staffPinCode": "1234",
+              "enableTableNumberInput": false,
+              "allowedRequestTypes": [
+                  "PRE ORDER",
+                  "EAT HERE",
+                  "TAKEAWAY",
+                  "ROOM ORDER"
+              ]
+          },
+          "zipCode": "00120"
+      },
+      "device": {
+          "printerPaperWidth": "80mm",
+          "serialNumber": "mock",
+          "id": "b22bd8b2-c91f-4b9d-96c3-ea4b711c8674",
+          "createdAt": "2023-02-04T15:22:51.888Z",
+          "nameOrdering": true,
+          "type": "kiosk",
+          "name": "duc kiosk",
+          "updatedAt": "2023-02-14T22:29:39.489Z",
+          "restaurantId": "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e",
+          "menuIds": [
+              "submenu-1"
+          ],
+          "shouldAutoPrintOrders": false,
+          "autoAcceptOrderInSeconds": -1
+      }
+  },
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
