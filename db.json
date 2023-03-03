@@ -1,4 +1,13 @@
 {
+    "initPayment" : {"action":"init_payment","data":{}},
+    "paymentUpdateToken" : {"action":"payment_token_update","data":{}},
+    "paymentLoginNormal" : {"action":"payment_login_normal","data":{}},
+    "paymentSetting" : {"action":"payment_setting","data":{}},
+    "printerCheck" : {"action":"printer_info","data":{}},
+    "checkPaymentStatus" : {"action":"payment_status_check","data":{}},
+    "PrinterData": {
+        "action":"order_success","data":{"rows":[[{"value":"2023-03-03 17:17:10","type":"text","align":"center"}]]}
+    },
   "getRestaurantBySerialNumber": {
       "success": true,
       "data": {
